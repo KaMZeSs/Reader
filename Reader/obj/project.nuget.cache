@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x4RDDE9YxipbrjXwd7ZlsA8D9DU1p+hi/hbZvSrAUhbkrUKSF6zzJO1+NnuL0oz3ERNC0R1Mk3nUM8mNOks75w==",
+  "dgSpecHash": "PjBhDV/hslIbXjAILXMb23DXH2ZKNuLVJbYUS3P70SI1iFVFQ2hwTvRDJB+Tdla8oEJCzMB000XvIfC9dPQDrA==",
   "success": true,
-  "projectFilePath": "E:\\Repos\\Reader\\Reader\\Reader.csproj",
+  "projectFilePath": "C:\\Repos\\Reader\\Reader\\Reader.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
