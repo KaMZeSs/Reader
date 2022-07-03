@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Reader.Books.FB2
 {
-    internal class Illustration
+    internal class Illustration : FB2Component
     {
         public struct Img
         {
@@ -15,7 +15,16 @@ namespace Reader.Books.FB2
         }
 
         private Img image;
+        public Img Image { get { return image; } }
+
         private string name;
+        public string Name { get { return name; } }
+
+        public Illustration(Img image, string name)
+        {
+            this.image = image;
+            this.name = name;
+        }
 
         public static Img GetIllustrationByName(Illustration[] illustrations, string name)
         {
